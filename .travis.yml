@@ -4,7 +4,7 @@ xcode_workspace: wk1_picwall.xcworkspace
 xcode_scheme: wk1_picwall
 
 script:
-  - xcodebuild -scheme wk1_picwall -workspace wk1_picwall.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.2' build test
+  - xcodebuild -scheme wk1_picwall -workspace wk1_picwall.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6 Plus,OS=10.3' build test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

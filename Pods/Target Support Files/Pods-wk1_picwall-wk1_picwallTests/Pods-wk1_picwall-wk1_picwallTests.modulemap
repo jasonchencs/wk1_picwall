@@ -1,0 +1,6 @@
+framework module Pods_wk1_picwall_wk1_picwallTests {
+  umbrella header "Pods-wk1_picwall-wk1_picwallTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,6 +16,12 @@
 		3C04A90F1EBC76D500A6EFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C04A90D1EBC76D500A6EFE1 /* LaunchScreen.storyboard */; };
 		3C04A91A1EBC76D500A6EFE1 /* wk1_picwallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04A9191EBC76D500A6EFE1 /* wk1_picwallTests.m */; };
 		3C04A9251EBC76D500A6EFE1 /* wk1_picwallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04A9241EBC76D500A6EFE1 /* wk1_picwallUITests.m */; };
+		3CAB8C531EC5A82600EB0F65 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB8C521EC5A82600EB0F65 /* RestClient.m */; };
+		3CAB8C561EC5A84A00EB0F65 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB8C551EC5A84A00EB0F65 /* RestRequest.m */; };
+		3CAB8C591EC5A86300EB0F65 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB8C581EC5A86300EB0F65 /* RestResponse.m */; };
+		3CAB8C5C1EC5AE3F00EB0F65 /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB8C5B1EC5AE3F00EB0F65 /* MaskView.xib */; };
+		3CAB8C601EC5B02B00EB0F65 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB8C5E1EC5B02B00EB0F65 /* LoginViewController.m */; };
+		3CAB8C611EC5B02B00EB0F65 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB8C5F1EC5B02B00EB0F65 /* LoginViewController.xib */; };
 		843C7841FE46C50123A7B337 /* Pods_wk1_picwall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4F645EB10D285D91DCE0D /* Pods_wk1_picwall.framework */; };
 		9F95D93F5B26344ADD5BEC24 /* Pods_wk1_picwall_wk1_picwallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F71EF4AE510439BF6D05F2 /* Pods_wk1_picwall_wk1_picwallTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +63,17 @@
 		3C04A9201EBC76D500A6EFE1 /* wk1_picwallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wk1_picwallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C04A9241EBC76D500A6EFE1 /* wk1_picwallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wk1_picwallUITests.m; sourceTree = "<group>"; };
 		3C04A9261EBC76D500A6EFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAB8C511EC5A82600EB0F65 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = wk1_picwall/RestClient/RestClient.h; sourceTree = "<group>"; };
+		3CAB8C521EC5A82600EB0F65 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = wk1_picwall/RestClient/RestClient.m; sourceTree = "<group>"; };
+		3CAB8C541EC5A84A00EB0F65 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = wk1_picwall/RestClient/RestRequest.h; sourceTree = "<group>"; };
+		3CAB8C551EC5A84A00EB0F65 /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = wk1_picwall/RestClient/RestRequest.m; sourceTree = "<group>"; };
+		3CAB8C571EC5A86300EB0F65 /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = wk1_picwall/RestClient/RestResponse.h; sourceTree = "<group>"; };
+		3CAB8C581EC5A86300EB0F65 /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = wk1_picwall/RestClient/RestResponse.m; sourceTree = "<group>"; };
+		3CAB8C5A1EC5ACE900EB0F65 /* RestRequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestRequestTests.h; sourceTree = "<group>"; };
+		3CAB8C5B1EC5AE3F00EB0F65 /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaskView.xib; path = wk1_picwall/View/MaskView.xib; sourceTree = "<group>"; };
+		3CAB8C5D1EC5B02B00EB0F65 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = wk1_picwall/View/LoginViewController.h; sourceTree = "<group>"; };
+		3CAB8C5E1EC5B02B00EB0F65 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = wk1_picwall/View/LoginViewController.m; sourceTree = "<group>"; };
+		3CAB8C5F1EC5B02B00EB0F65 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = wk1_picwall/View/LoginViewController.xib; sourceTree = "<group>"; };
 		43641888BB4D861BFAB6E66F /* Pods-wk1_picwall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wk1_picwall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wk1_picwall/Pods-wk1_picwall.debug.xcconfig"; sourceTree = "<group>"; };
 		91DBB5D82944DAC5D4513244 /* Pods-wk1_picwall-wk1_picwallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wk1_picwall-wk1_picwallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wk1_picwall-wk1_picwallTests/Pods-wk1_picwall-wk1_picwallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CED4F645EB10D285D91DCE0D /* Pods_wk1_picwall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wk1_picwall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +110,9 @@
 		3C04A8F01EBC76D500A6EFE1 = {
 			isa = PBXGroup;
 			children = (
+				3CAB8C4F1EC5A7C700EB0F65 /* RestClient */,
+				3CAB8C4E1EC5A7C100EB0F65 /* Model */,
+				3CAB8C4D1EC5A7B700EB0F65 /* View */,
 				3C04A8FB1EBC76D500A6EFE1 /* wk1_picwall */,
 				3C04A9181EBC76D500A6EFE1 /* wk1_picwallTests */,
 				3C04A9231EBC76D500A6EFE1 /* wk1_picwallUITests */,
@@ -142,6 +162,7 @@
 			children = (
 				3C04A9191EBC76D500A6EFE1 /* wk1_picwallTests.m */,
 				3C04A91B1EBC76D500A6EFE1 /* Info.plist */,
+				3CAB8C5A1EC5ACE900EB0F65 /* RestRequestTests.h */,
 			);
 			path = wk1_picwallTests;
 			sourceTree = "<group>";
@@ -153,6 +174,37 @@
 				3C04A9261EBC76D500A6EFE1 /* Info.plist */,
 			);
 			path = wk1_picwallUITests;
+			sourceTree = "<group>";
+		};
+		3CAB8C4D1EC5A7B700EB0F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB8C5B1EC5AE3F00EB0F65 /* MaskView.xib */,
+				3CAB8C5D1EC5B02B00EB0F65 /* LoginViewController.h */,
+				3CAB8C5E1EC5B02B00EB0F65 /* LoginViewController.m */,
+				3CAB8C5F1EC5B02B00EB0F65 /* LoginViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3CAB8C4E1EC5A7C100EB0F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CAB8C4F1EC5A7C700EB0F65 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB8C511EC5A82600EB0F65 /* RestClient.h */,
+				3CAB8C521EC5A82600EB0F65 /* RestClient.m */,
+				3CAB8C541EC5A84A00EB0F65 /* RestRequest.h */,
+				3CAB8C551EC5A84A00EB0F65 /* RestRequest.m */,
+				3CAB8C571EC5A86300EB0F65 /* RestResponse.h */,
+				3CAB8C581EC5A86300EB0F65 /* RestResponse.m */,
+			);
+			name = RestClient;
 			sourceTree = "<group>";
 		};
 		68850DAB065C8E6EDD803AF6 /* Pods */ = {
@@ -300,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAB8C611EC5B02B00EB0F65 /* LoginViewController.xib in Resources */,
+				3CAB8C5C1EC5AE3F00EB0F65 /* MaskView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +465,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C04A9041EBC76D500A6EFE1 /* ViewController.m in Sources */,
+				3CAB8C561EC5A84A00EB0F65 /* RestRequest.m in Sources */,
+				3CAB8C591EC5A86300EB0F65 /* RestResponse.m in Sources */,
 				3C04A9011EBC76D500A6EFE1 /* AppDelegate.m in Sources */,
 				3C04A90A1EBC76D500A6EFE1 /* wk1_picwall.xcdatamodeld in Sources */,
+				3CAB8C531EC5A82600EB0F65 /* RestClient.m in Sources */,
 				3C04A8FE1EBC76D500A6EFE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAB8C601EC5B02B00EB0F65 /* LoginViewController.m in Sources */,
 				3C04A91A1EBC76D500A6EFE1 /* wk1_picwallTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,6 +715,7 @@
 				3C04A92B1EBC76D500A6EFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C04A92C1EBC76D500A6EFE1 /* Build configuration list for PBXNativeTarget "wk1_picwallTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +724,7 @@
 				3C04A92E1EBC76D500A6EFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C04A92F1EBC76D500A6EFE1 /* Build configuration list for PBXNativeTarget "wk1_picwallUITests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +733,7 @@
 				3C04A9311EBC76D500A6EFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
